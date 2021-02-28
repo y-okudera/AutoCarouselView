@@ -3,64 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC5E019825EBC3B000A8E601 /* AutoCarouselView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5E018E25EBC3AF00A8E601 /* AutoCarouselView.framework */; };
-		FC5E019D25EBC3B000A8E601 /* AutoCarouselViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E019C25EBC3B000A8E601 /* AutoCarouselViewTests.swift */; };
-		FC5E019F25EBC3B000A8E601 /* AutoCarouselView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5E019125EBC3AF00A8E601 /* AutoCarouselView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC46243E25EC177700237CC5 /* AutoCarouselView in Frameworks */ = {isa = PBXBuildFile; productRef = FC46243D25EC177700237CC5 /* AutoCarouselView */; };
 		FC5E01B125EBC50F00A8E601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E01B025EBC50F00A8E601 /* AppDelegate.swift */; };
 		FC5E01B325EBC50F00A8E601 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E01B225EBC50F00A8E601 /* SceneDelegate.swift */; };
 		FC5E01B525EBC50F00A8E601 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E01B425EBC50F00A8E601 /* ContentView.swift */; };
 		FC5E01B725EBC51100A8E601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5E01B625EBC51100A8E601 /* Assets.xcassets */; };
 		FC5E01BA25EBC51100A8E601 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5E01B925EBC51100A8E601 /* Preview Assets.xcassets */; };
 		FC5E01BD25EBC51100A8E601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E01BB25EBC51100A8E601 /* LaunchScreen.storyboard */; };
-		FC5E01C625EBC52E00A8E601 /* AutoCarouselView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5E018E25EBC3AF00A8E601 /* AutoCarouselView.framework */; };
-		FC5E01C725EBC52F00A8E601 /* AutoCarouselView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC5E018E25EBC3AF00A8E601 /* AutoCarouselView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FC5E01D125EBC72000A8E601 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E01D025EBC72000A8E601 /* View+.swift */; };
-		FC5E01D625EBC80600A8E601 /* AutoCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E01D525EBC80600A8E601 /* AutoCarouselView.swift */; };
-		FC5E01DF25EBD6BE00A8E601 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E01DE25EBD6BE00A8E601 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FC5E019925EBC3B000A8E601 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC5E018525EBC3AF00A8E601 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC5E018D25EBC3AF00A8E601;
-			remoteInfo = AutoCarouselView;
-		};
-		FC5E01C825EBC52F00A8E601 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC5E018525EBC3AF00A8E601 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC5E018D25EBC3AF00A8E601;
-			remoteInfo = AutoCarouselView;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FC5E01CA25EBC52F00A8E601 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FC5E01C725EBC52F00A8E601 /* AutoCarouselView.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		FC5E018E25EBC3AF00A8E601 /* AutoCarouselView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoCarouselView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC5E019125EBC3AF00A8E601 /* AutoCarouselView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoCarouselView.h; sourceTree = "<group>"; };
-		FC5E019225EBC3AF00A8E601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC46243C25EC135900237CC5 /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; sourceTree = "<group>"; };
 		FC5E019725EBC3B000A8E601 /* AutoCarouselViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCarouselViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC5E019C25EBC3B000A8E601 /* AutoCarouselViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCarouselViewTests.swift; sourceTree = "<group>"; };
-		FC5E019E25EBC3B000A8E601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC5E01AE25EBC50F00A8E601 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5E01B025EBC50F00A8E601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC5E01B225EBC50F00A8E601 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,24 +27,13 @@
 		FC5E01B925EBC51100A8E601 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC5E01BC25EBC51100A8E601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC5E01BE25EBC51100A8E601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC5E01D025EBC72000A8E601 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
-		FC5E01D525EBC80600A8E601 /* AutoCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCarouselView.swift; sourceTree = "<group>"; };
-		FC5E01DE25EBD6BE00A8E601 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC5E018B25EBC3AF00A8E601 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FC5E019425EBC3B000A8E601 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5E019825EBC3B000A8E601 /* AutoCarouselView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5E01C625EBC52E00A8E601 /* AutoCarouselView.framework in Frameworks */,
+				FC46243E25EC177700237CC5 /* AutoCarouselView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +51,7 @@
 		FC5E018425EBC3AF00A8E601 = {
 			isa = PBXGroup;
 			children = (
-				FC5E019025EBC3AF00A8E601 /* Sources */,
-				FC5E019B25EBC3B000A8E601 /* Tests */,
+				FC46243C25EC135900237CC5 /*  */,
 				FC5E01AF25EBC50F00A8E601 /* Demo */,
 				FC5E018F25EBC3AF00A8E601 /* Products */,
 				FC5E01C525EBC52E00A8E601 /* Frameworks */,
@@ -115,31 +61,10 @@
 		FC5E018F25EBC3AF00A8E601 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC5E018E25EBC3AF00A8E601 /* AutoCarouselView.framework */,
 				FC5E019725EBC3B000A8E601 /* AutoCarouselViewTests.xctest */,
 				FC5E01AE25EBC50F00A8E601 /* Demo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FC5E019025EBC3AF00A8E601 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				FC5E01D425EBC7F700A8E601 /* Views */,
-				FC5E01CF25EBC6FB00A8E601 /* Extensions */,
-				FC5E019125EBC3AF00A8E601 /* AutoCarouselView.h */,
-				FC5E019225EBC3AF00A8E601 /* Info.plist */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		FC5E019B25EBC3B000A8E601 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				FC5E019C25EBC3B000A8E601 /* AutoCarouselViewTests.swift */,
-				FC5E019E25EBC3B000A8E601 /* Info.plist */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 		FC5E01AF25EBC50F00A8E601 /* Demo */ = {
@@ -171,55 +96,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC5E01CF25EBC6FB00A8E601 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				FC5E01D025EBC72000A8E601 /* View+.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		FC5E01D425EBC7F700A8E601 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				FC5E01D525EBC80600A8E601 /* AutoCarouselView.swift */,
-				FC5E01DE25EBD6BE00A8E601 /* PageViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		FC5E018925EBC3AF00A8E601 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC5E019F25EBC3B000A8E601 /* AutoCarouselView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		FC5E018D25EBC3AF00A8E601 /* AutoCarouselView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC5E01A225EBC3B000A8E601 /* Build configuration list for PBXNativeTarget "AutoCarouselView" */;
-			buildPhases = (
-				FC5E018925EBC3AF00A8E601 /* Headers */,
-				FC5E018A25EBC3AF00A8E601 /* Sources */,
-				FC5E018B25EBC3AF00A8E601 /* Frameworks */,
-				FC5E018C25EBC3AF00A8E601 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AutoCarouselView;
-			productName = AutoCarouselView;
-			productReference = FC5E018E25EBC3AF00A8E601 /* AutoCarouselView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		FC5E019625EBC3B000A8E601 /* AutoCarouselViewTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC5E01A525EBC3B000A8E601 /* Build configuration list for PBXNativeTarget "AutoCarouselViewTests" */;
@@ -231,7 +110,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FC5E019A25EBC3B000A8E601 /* PBXTargetDependency */,
 			);
 			name = AutoCarouselViewTests;
 			productName = AutoCarouselViewTests;
@@ -245,14 +123,15 @@
 				FC5E01AA25EBC50F00A8E601 /* Sources */,
 				FC5E01AB25EBC50F00A8E601 /* Frameworks */,
 				FC5E01AC25EBC50F00A8E601 /* Resources */,
-				FC5E01CA25EBC52F00A8E601 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FC5E01C925EBC52F00A8E601 /* PBXTargetDependency */,
 			);
 			name = Demo;
+			packageProductDependencies = (
+				FC46243D25EC177700237CC5 /* AutoCarouselView */,
+			);
 			productName = Demo;
 			productReference = FC5E01AE25EBC50F00A8E601 /* Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -266,10 +145,6 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					FC5E018D25EBC3AF00A8E601 = {
-						CreatedOnToolsVersion = 12.4;
-						LastSwiftMigration = 1240;
-					};
 					FC5E019625EBC3B000A8E601 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -291,7 +166,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC5E018D25EBC3AF00A8E601 /* AutoCarouselView */,
 				FC5E019625EBC3B000A8E601 /* AutoCarouselViewTests */,
 				FC5E01AD25EBC50F00A8E601 /* Demo */,
 			);
@@ -299,13 +173,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC5E018C25EBC3AF00A8E601 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FC5E019525EBC3B000A8E601 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,21 +193,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FC5E018A25EBC3AF00A8E601 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC5E01DF25EBD6BE00A8E601 /* PageViewController.swift in Sources */,
-				FC5E01D125EBC72000A8E601 /* View+.swift in Sources */,
-				FC5E01D625EBC80600A8E601 /* AutoCarouselView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FC5E019325EBC3B000A8E601 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5E019D25EBC3B000A8E601 /* AutoCarouselViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,19 +211,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FC5E019A25EBC3B000A8E601 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC5E018D25EBC3AF00A8E601 /* AutoCarouselView */;
-			targetProxy = FC5E019925EBC3B000A8E601 /* PBXContainerItemProxy */;
-		};
-		FC5E01C925EBC52F00A8E601 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC5E018D25EBC3AF00A8E601 /* AutoCarouselView */;
-			targetProxy = FC5E01C825EBC52F00A8E601 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FC5E01BB25EBC51100A8E601 /* LaunchScreen.storyboard */ = {
@@ -503,63 +346,9 @@
 			};
 			name = Release;
 		};
-		FC5E01A325EBC3B000A8E601 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = B8PR34D6DP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.AutoCarouselView;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FC5E01A425EBC3B000A8E601 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = B8PR34D6DP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.AutoCarouselView;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		FC5E01A625EBC3B000A8E601 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -578,7 +367,6 @@
 		FC5E01A725EBC3B000A8E601 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -597,7 +385,6 @@
 		FC5E01BF25EBC51100A8E601 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -619,7 +406,6 @@
 		FC5E01C025EBC51100A8E601 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -650,15 +436,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC5E01A225EBC3B000A8E601 /* Build configuration list for PBXNativeTarget "AutoCarouselView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC5E01A325EBC3B000A8E601 /* Debug */,
-				FC5E01A425EBC3B000A8E601 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FC5E01A525EBC3B000A8E601 /* Build configuration list for PBXNativeTarget "AutoCarouselViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -678,6 +455,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC46243D25EC177700237CC5 /* AutoCarouselView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AutoCarouselView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC5E018525EBC3AF00A8E601 /* Project object */;
 }
