@@ -1,6 +1,7 @@
 # AutoCarouselView
 Auto CarouselView for SwiftUI.
 
+![demo](https://user-images.githubusercontent.com/25205138/109458351-f8f31100-7a9f-11eb-9372-31e1e8864122.gif)
 
 
 ## Requirements
@@ -23,6 +24,7 @@ Open `Xcode`, go to `File -> Swift Packages -> Add Package Dependency` and enter
 - Basic
 
   AutoCarouselView parameters have default values.
+  You can simply pass in the views and the current page.
 
 ```
 import AutoCarouselView
